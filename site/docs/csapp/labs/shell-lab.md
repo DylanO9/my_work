@@ -1,4 +1,8 @@
+import architecture from '../../../img/csapp/architecture.jpg';
+
 # Shell Lab
+
+
 ## Summary/Purpose
 The purporse of this lab is to write our own Unix shell with the purpose of reinforcing concepts seen in the book such as signalling, process control, and exceptions.
 ### Key Concepts
@@ -7,7 +11,8 @@ The purporse of this lab is to write our own Unix shell with the purpose of rein
 - Concurrency
 - Signals
 - How a basic shell works
-## System Diagram
+## Diagrams
+<img src={architecture} alt="CS:APP architecture" style={{maxWidth: '300px', width: '100%', height: 'auto'}} />
 ## Implementations
 ### eval
 Functionality: Main routine that parses and interprets the command line
